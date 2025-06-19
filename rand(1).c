@@ -1,4 +1,4 @@
-#inclulde <stdio.h>
+#include <stdio.h>
 #include <stdlic.h>
 #include <time.h>
 int main()
@@ -11,7 +11,8 @@ int b=rand();
 int c=rand();
 printf("%d,%d",b,c);
 
-scrand(time(0));
+srand(time(0));
 int d=rand();
 int f=rand();
 printf("%d,%d",d,f);
+}
