@@ -1,0 +1,7 @@
+# include  <stdlib.h>//header file
+void* malloc(size_t size)
+//The malloc() function may fail to allocate memory, in which case it returns the constant 'NULL'.
+
+int* p = malloc(sizeof(int));
+if (p == NULL) {
+}
